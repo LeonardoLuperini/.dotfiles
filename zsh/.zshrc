@@ -1,11 +1,12 @@
 #Plugin
-source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $ZDOTDIR/zsh-history-substring-search.zsh
-source $ZDOTDIR/zsh-you-should-use/you-should-use.plugin.zsh
+source $ZPLUGINS/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ZPLUGINS/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $ZPLUGINS/zsh-history-substring-search.zsh
+source $ZPLUGINS/zsh-you-should-use/you-should-use.plugin.zsh
 
 #Alias
-alias la="ls -a"
+alias la="ls -a --color=auto"
+alias ls="ls --color=auto"
 
 # History sub tring search options
 #* se passi a vi ricordati di cambiarlo
@@ -28,3 +29,4 @@ compinit
 
 # Starship
 eval "$(starship init zsh)"
+export STARSHIP_CONFIG=$ZDOTDIR/starship.toml
