@@ -11,11 +11,14 @@ Stay in $HOME and write:
     cd .dotfiles/zsh
     mkdir Plugins
 
-Install all following the plugin in the Plugins folder:
+Clone all the following the repo in the Plugins folder:
 
 - [Auto suggesions](https://github.com/zsh-users/zsh-autosuggestions)
 - [Syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [You should use](https://github.com/MichaelAquilina/zsh-you-should-use)
+
+For this plugin just copy this file whit the same name:
+
 - [History substring search](https://github.com/zsh-users/zsh-history-substring-search/blob/master/zsh-history-substring-search.zsh)
 
 Install [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation)
