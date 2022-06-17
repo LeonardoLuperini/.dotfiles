@@ -26,3 +26,5 @@ Install [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation)
 Execute this command:
 
     export STARSHIP_CONFIG=~/.dotfiles/zsh/starship.toml
+
+Install [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip) and set your terminal to use this font
