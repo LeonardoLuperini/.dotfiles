@@ -22,3 +22,7 @@ For this plugin just copy this file whit the same name:
 - [History substring search](https://github.com/zsh-users/zsh-history-substring-search/blob/master/zsh-history-substring-search.zsh)
 
 Install [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation)
+
+Execute this command:
+
+    export STARSHIP_CONFIG=~/.dotfiles/zsh/starship.toml
